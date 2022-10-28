@@ -10,7 +10,7 @@
   font-size: 20px;
 }
 .navigation .nav-container .brand a img {
-  height: 50px;
+  height: 30px;
   margin-top: 20px;
 }
 
@@ -21,7 +21,7 @@
   margin-top: 20px;
 }
 .navigation-background .nav-container nav .nav-list li a {
-  color: #ffffff;
+  color: #F7941E;
 }
 
 .nav-container {
@@ -56,6 +56,9 @@
 @media only screen and (min-width: 799px) {
   .brand {
     margin-left: 0;
+  }
+  .brand a img {
+    height: 50px;
   }
 }
 nav {
@@ -182,7 +185,7 @@ nav ul li ul li a {
   border-radius: 1px;
   height: 5px;
   width: 35px;
-  background: #0F627D;
+  background: #F7941E;
   position: absolute;
   display: block;
   content: "";

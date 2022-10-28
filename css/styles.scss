@@ -28,6 +28,10 @@ body {
     letter-spacing: 5px;
 }
 
+img {
+    width: 100%;
+}
+
 button, .btn {
     padding: 15px 25px;
     border: 1px solid transparent;
@@ -102,6 +106,9 @@ button, .btn {
         .product-grid {
             p {
                 margin: 30px 25%
+            }
+            .heading {
+                color: $primary-color;
             }
 
             .grids {

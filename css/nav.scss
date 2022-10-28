@@ -24,7 +24,7 @@ $text-color: gray;
         .brand {
             a {
                 img {
-                    height: 50px;
+                    height: 30px;
                     margin-top: 20px;
                 }
             }
@@ -48,11 +48,12 @@ $text-color: gray;
             .nav-list {
                 li {
                     a {
-                        color: $white
+                        color: $secondary-color
                     }
                 }
             }
         }
+
     }
 }
 .nav-container {
@@ -89,6 +90,11 @@ $text-color: gray;
 @media only screen and (min-width: $breakpoint) {
     .brand {
         margin-left: 0;
+        a {
+            img {
+                height: 50px;
+            }
+        }
      }
 }
 
@@ -230,7 +236,7 @@ nav {
         border-radius: 1px;
         height: 5px;
         width: 35px;
-        background: $primary-color;
+        background: $secondary-color;
         position: absolute;
         display: block;
         content: '';
