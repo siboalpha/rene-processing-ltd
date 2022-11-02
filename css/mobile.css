@@ -20,6 +20,10 @@
     margin-top: 55vh;
   }
   .hero .container .col-right img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
     height: 50vh;
     width: 100%;
     -o-object-fit: cover;

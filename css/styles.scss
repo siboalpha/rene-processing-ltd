@@ -70,18 +70,31 @@ button, .btn {
     height: 100vh;
     display: flex;
     align-items: center;
-    background-color: $primary-color;
     color: $white;
     position: relative;
+    background-image: url(/img/PRODUCTS.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+
+    &::after {
+        content: "";
+        background: rgb(15,98,125);
+        background: linear-gradient(90deg, rgba(15,98,125,0.9752101524203431) 29%, rgba(98,161,170,0.38137261740633754) 100%); 
+        position: absolute;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 0;
+    }
     .container {
+        position: relative;
+        z-index: 1;
         .col-right {
             img {
-                position: absolute;
-                top: 0;
-                right: 0;
-                height: 100%;
-                width: 45%;
-                z-index: 0;
+                height: 500px;
+                object-fit: cover;
             }
         }
     }
@@ -116,6 +129,7 @@ button, .btn {
                 display: grid;
                 grid-template-columns: 24% 24% 24% 24%;
                 justify-content: space-between;
+                row-gap: 20px;
 
                 .product {
                     width: 100%;
@@ -256,6 +270,10 @@ footer {
     background-color: $primary-color;
     color: white;
     .container {
+        img {
+            max-width: 300px;
+        }
+        justify-content: space-between;
         .social-media {
             display: flex;
             gap: 14px;
