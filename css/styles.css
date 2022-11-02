@@ -132,6 +132,9 @@ button:hover, .btn:hover {
   margin-top: 20px;
   padding: 20px;
 }
+.products .container .product-grid .grids .product .content .title {
+  color: #F7941E;
+}
 .products .container .product-grid .grids .product .content .desc {
   margin: 10px 0;
 }
