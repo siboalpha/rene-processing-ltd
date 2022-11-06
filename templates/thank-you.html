@@ -1,0 +1,63 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rene Processing ltd</title>
+    <link rel="icon" href="{% static '/img/favicon.svg' %}" />
+    <link rel="stylesheet" href="{% static '/css/nav.css' %}" />
+    <link rel="stylesheet" href="{% static '/css/styles.css' %}" />
+    <link rel="stylesheet" href="{% static '/css/mobile.css' %}">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="https://kit.fontawesome.com/54c10e37be.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+</head>
+<body>
+    <header class="navigation" id="nav">
+        <div class="nav-container">
+            <div class="brand">
+                <a class="site-logo" href="/"><img src="{% static '/img/Logo.svg' %}" alt="" /></a>
+            </div>
+            <nav class="links-container">
+                <div class="nav-mobile">
+                    <a id="nav-toggle" href="#!"><span></span></a>
+                </div>
+                <ul class="nav-list">
+                    <li><a href="/#welcome" class="scroll-link">Welcome</a></li>
+                    <li><a href="/#about" class="scroll-link">About Us</a></li>
+                    <li><a href="/#product" class="scroll-link">Shop</a></li>
+                    <li><a href="/#contact" class="scroll-link"><button>Contact us</button></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="thank-you">
+        <div class="container">
+            <div class="thank-you-content">
+                <h4>Thank you for you interest in working with us, our team will get in touch with you as soon as possible</h4>
+            </div>
+            <p></p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <img src="{% static '/img/Logo.svg' %}" alt="" class="logo">
+            <div class="social-media">
+                <a href="https://www.facebook.com/profile.php?id=100085291705240" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/Reneprocessing" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/rprocessingltd/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+
+            <div class="copy-rights"><i></i> All rights reserved | Design by <span> <a href="">Alphonse</a></span></div>
+        </div>
+    </footer>
+    <script src="{% static '/js/nav.js' %}"></script>
+
+    
+</body>
+</html>
