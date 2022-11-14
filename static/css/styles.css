@@ -64,7 +64,7 @@ button:hover, .btn:hover {
   align-items: center;
   color: #ffffff;
   position: relative;
-  background-image: url(/img/PRODUCTS.jpg);
+  background-image: url("/static/img/PRODUCTS.jpg");
   background-size: cover;
   background-position: center;
   z-index: 1;
